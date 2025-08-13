@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="year1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-13 04:09:40 AM"/>
+        <attribute name="created" value="eWVhcjE7TEFCMy0yNzsyMDI1LTA4LTEzOzAzOjM3OjMxIEFNOzIxNTc="/>
+        <attribute name="edited" value="eWVhcjE7TEFCMy0yNzsyMDI1LTA4LTEzOzA0OjA5OjQwIEFNOzE7MjI2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, height, area" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the base and height&quot;" newline="True"/>
+            <input variable="base"/>
+            <input variable="height"/>
+            <assign variable="area" expression="(1/2)*base*height"/>
+            <output expression="&quot;Area is &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
